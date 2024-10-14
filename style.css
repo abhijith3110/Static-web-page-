@@ -4,16 +4,27 @@
   font-family: Poppins;
 }
 
+.container-fluid{
+    background: rgba(255, 244, 230, 1);
+   
+}
+
 .header-logo img {
-  width: 219.57px;
   height: 56px;
+}
+
+.header-logo{
+    margin: 0;
 }
 
 .header {
   display: flex;
   align-items: center;
   height: 90px;
-  background: rgba(255, 244, 230, 1);
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+  gap: 200px
 }
 
 .header-nav-bar ul {
@@ -149,13 +160,19 @@
 }
 
 .footer {
-  background: rgba(255, 244, 230, 1);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px 0px;
   gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+footer{
+    background: rgba(255, 244, 230, 1);
+    padding: 40px 0px;
 }
 
 .footer-social-links-btn {
@@ -172,7 +189,7 @@
 
 .footer-icon {
   border: 1px solid;
-  padding: 12px;
+  padding: 20px;
   border-radius: 50%;
 }
 
@@ -190,3 +207,17 @@
   font-weight: 600;
   line-height: 22.5px;
 }
+
+.hamberger-menu{
+    height: 10px;
+    width: 20px;
+}
+
+#checking {
+    display: none;
+}
+
+label {
+    display: none;
+}
+
