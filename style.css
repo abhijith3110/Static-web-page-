@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: Poppins;
+}
+
+.header-logo img {
+    width: 219.57px;
+    height: 56px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    background: rgba(255, 244, 230, 1);
+}
+
+.header-nav-bar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+
+.header-nav-bar li {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header-nav-bar li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header-nav-bar ul :hover {
+    cursor: pointer;
+    color: rgba(254, 136, 1, 1);
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.main-banner {
+    display: flex;
+    gap: 60px;
+    margin-top: 100px;
+}
+
+.content-banner h1 {
+    font-size: 86.41px;
+    font-weight: 700;
+    line-height: 92.17px;
+}
+
+.content-banner-para {
+    max-width: 541px;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.image-banner img {
+    width: 628px;
+    height: 409px;
+}
+
+.image-banner {
+    width: 50%;
+}
+
+.content-banner-btn button {
+    background: rgba(66, 194, 178, 1);
+    color: #fff;
+    border: none;
+    padding: 20px 60px;
+    border-radius: 10px;
+}
+
+.content-banner-btn button span {
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.17px;
+}
+
+.service-banner{
+    margin-top: 150px;
+}
+
+.service-banner-heading h1{
+font-size: 55.42px;
+font-weight: 400;
+line-height: 83.13px;
+}
