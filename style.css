@@ -1,133 +1,192 @@
 * {
-    padding: 0;
-    margin: 0 auto;
-    font-family: Poppins;
+  padding: 0;
+  margin: 0 auto;
+  font-family: Poppins;
 }
 
 .header-logo img {
-    width: 219.57px;
-    height: 56px;
+  width: 219.57px;
+  height: 56px;
 }
 
 .header {
-    display: flex;
-    align-items: center;
-    height: 90px;
-    background: rgba(255, 244, 230, 1);
+  display: flex;
+  align-items: center;
+  height: 90px;
+  background: rgba(255, 244, 230, 1);
 }
 
 .header-nav-bar ul {
-    display: flex;
-    list-style-type: none;
-    gap: 50px;
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
 }
 
 .header-nav-bar li {
-    font-size: 16px;
-    font-weight: 400;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .header-nav-bar li a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
 .header-nav-bar ul :hover {
-    cursor: pointer;
-    color: rgba(254, 136, 1, 1);
+  cursor: pointer;
+  color: rgba(254, 136, 1, 1);
 }
 
 .container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 15px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .main-banner {
-    display: flex;
-    gap: 60px;
-    margin-top: 100px;
+  display: flex;
+  margin-top: 100px;
+  gap: 50px;
 }
 
-.content-banner h1 {
-    font-size: 86.41px;
-    font-weight: 700;
-    line-height: 92.17px;
+.content-banner {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content-banner-heading h1 {
+  font-size: 86.41px;
+  font-weight: 700;
+  line-height: 92.17px;
 }
 
 .content-banner-para {
-    max-width: 541px;
-    margin: 10px 0;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
+  margin: 0;
+}
+
+.content-banner-para p {
+  max-width: 500px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0;
 }
 
 .image-banner {
-    width: 60%;
+  width: 100%;
 }
 
 .image-banner img {
-    width: 100%;
+  width: 100%;
 }
 
 .content-banner-btn button {
-    background: rgba(66, 194, 178, 1);
-    color: #fff;
-    border: none;
-    padding: 20px 60px;
-    border-radius: 10px;
+  background: rgba(66, 194, 178, 1);
+  color: #fff;
+  border: none;
+  padding: 20px 60px;
+  border-radius: 10px;
+}
+
+.content-banner-btn {
+  margin: 0;
 }
 
 .content-banner-btn button span {
-    font-family: Work Sans;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 20.17px;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20.17px;
 }
 
-.service-banner{
-    margin: 180px 0px;
+.service-banner {
+  margin: 180px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.service-banner-heading h1{
-font-size: 55.42px;
-font-weight: 400;
-line-height: 83.13px;
+.service-banner-heading {
+  margin: 0;
 }
 
-.service-banner-para{
-    max-width: 930px;
-    margin: 0;
+.service-banner-heading h1 {
+  font-size: 55.42px;
+  font-weight: 400;
+  line-height: 83.13px;
 }
 
-.service-banner-img-card{
-    position: relative;
+.service-banner-para {
+  max-width: 930px;
+  margin: 0;
 }
 
-.service-banner-card-content{
-    position: absolute;
-    bottom: 0;
-    padding: 10px 10px;
-    color: #fff;
+.service-banner-para p {
+  font-size: 16px;
 }
 
-.service-banner-img-card img{
-width: 100%;
+.service-banner-img-card {
+  position: relative;
 }
 
-.service-banner-cards{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    margin-top: 10px;
+.service-banner-card-content {
+  position: absolute;
+  bottom: 0;
+  padding: 10px 10px;
+  color: #fff;
 }
 
-.footer{
-    background: rgba(255, 244, 230, 1);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 0px;
+.service-banner-img-card img {
+  width: 100%;
+}
+
+.service-banner-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.footer {
+  background: rgba(255, 244, 230, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+  gap: 30px;
+}
+
+.footer-social-links-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-social-links-btn img {
+  width: 20px;
+  height: 14px;
+}
+
+.footer-icon {
+  border: 1px solid;
+  padding: 12px;
+  border-radius: 50%;
+}
+
+.footer-image {
+  width: 219.57px;
+  height: 86px;
+}
+
+.footer-image img {
+  width: 100%;
+}
+
+.footer-copyright p {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22.5px;
 }
