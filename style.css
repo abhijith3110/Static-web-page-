@@ -4,17 +4,16 @@
   font-family: Poppins;
 }
 
-.container-fluid{
-    background: rgba(255, 244, 230, 1);
-   
+.container-fluid {
+  background: rgba(255, 244, 230, 1);
 }
 
 .header-logo img {
   height: 56px;
 }
 
-.header-logo{
-    margin: 0;
+.header-logo {
+  margin: 0;
 }
 
 .header {
@@ -24,7 +23,7 @@
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 15px;
-  gap: 200px
+  gap: 200px;
 }
 
 .header-nav-bar ul {
@@ -170,9 +169,9 @@
   padding: 0 15px;
 }
 
-footer{
-    background: rgba(255, 244, 230, 1);
-    padding: 40px 0px;
+footer {
+  background: rgba(255, 244, 230, 1);
+  padding: 40px 0px;
 }
 
 .footer-social-links-btn {
@@ -208,16 +207,15 @@ footer{
   line-height: 22.5px;
 }
 
-.hamberger-menu{
-    height: 10px;
-    width: 20px;
+.hamberger-menu {
+  height: 10px;
+  width: 20px;
 }
 
 #checking {
-    display: none;
+  display: none;
 }
 
 label {
-    display: none;
+  display: none;
 }
-
