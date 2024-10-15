@@ -16,10 +16,14 @@
 
   .content-banner-para p {
     max-width: 600px;
-    margin: 10px 0;
+    margin: 0 auto;
     font-size: 14px;
     font-weight: 400;
     line-height: 26px;
+  }
+
+  .content-banner-btn {
+    margin: 0 auto;
   }
 
   .service-banner-cards {
@@ -27,15 +31,20 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
   }
+
+  .service-banner-heading h1 {
+    display: flex;
+    justify-content: center;
+  }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 840px) {
   .header-nav-bar {
     display: none;
   }
 
   .content-banner-heading h1 {
-    font-size: 50.41px;
+    font-size: 32.41px;
     font-weight: 600;
     line-height: 50.17px;
   }
@@ -65,7 +74,8 @@
   }
 
   .service-banner-para p {
-    font-size: 13px;
+    max-width: 585px;
+    font-size: 14px;
   }
 
   .service-banner {
@@ -103,6 +113,23 @@
 
   .header-logo {
     margin-left: 30px;
+  }
+
+  .footer-icon {
+    border: 1px solid;
+    padding: 14px;
+    border-radius: 50%;
+  }
+
+  .footer-image {
+    width: 159.57px;
+    height: 86px;
+  }
+
+  .footer-copyright p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22.5px;
   }
 }
 
@@ -147,13 +174,13 @@
   }
 
   .footer-social-links-btn img {
-    width: 16px;
-    height: 12px;
+    width: 14px;
+    height: 10px;
   }
 
   .footer-icon {
     border: 1px solid;
-    padding: 12px;
+    padding: 10px 14px;
     border-radius: 50%;
   }
 
